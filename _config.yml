@@ -1,4 +1,4 @@
-title: Welcome to Flexton
+title: Welcome to Glaciermelt's Blog
 description: Flexton is a responsive and ultra-minimal theme for Jekyll.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "flexton.netlify.com" # the base hostname & protocol for your site, e.g. http://example.com
@@ -12,12 +12,12 @@ author-twitter:  # Add your twitter account
 about-author:   Artificial Intelligence
 
 # Social settings
-social-twitter:   
-social-facebook:
-social-github:    GlacierMelt
+social-twitter: null
+social-facebook: null
+social-github: GlacierMelt
 social-pinterest: 
-social-instagram: 
-social-youtube:
+social-instagram: null 
+social-youtube: null
 social-vk:   
 social-linkedin:
 

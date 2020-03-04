@@ -9,14 +9,6 @@ categories: guide
 # C 排序算法的实现
 ## Bubble Sort
 ```C
-#include <stdio.h>
-
-void swap(int nums[], int a, int b){
-  int temp = *(nums+a);
-  *(nums+a) = *(nums+b);
-  *(nums+b) = temp;
-}
-
 void Bubblesort(int *nums, int lenght){
     int hasChange = 1;
     for(int i=0; i<lenght-1 && hasChange; i++){
@@ -28,6 +20,15 @@ void Bubblesort(int *nums, int lenght){
             }
         }
     }
+}
+```
+```C
+#include <stdio.h>
+
+void swap(int nums[], int a, int b){
+  int temp = *(nums+a);
+  *(nums+a) = *(nums+b);
+  *(nums+b) = temp;
 }
 
 int main(){

@@ -22,6 +22,19 @@ void Bubblesort(int *nums, int lenght){
     }
 }
 ```
+## Insertion Sort
+```C
+void InsertionSort(int *nums, int lenght){
+    for(int i=1, j, current; i<lenght; i++){
+        current = nums[i];
+        for(j=i-1; j>=0 && nums[j]>current; j--){
+            nums[j+1] = nums[j];
+        }
+        nums[j+1] = current;
+    }
+}
+```
+## Remaining code
 ```C
 #include <stdio.h>
 

@@ -5,7 +5,8 @@ date: 2020-03-04 15:05:18 +020
 tags: [guide]
 categories: guide
 ---
-# Bubble Sort
+# C 排序算法的实现
+## Bubble Sort
 ```C
 #include <stdio.h>
 

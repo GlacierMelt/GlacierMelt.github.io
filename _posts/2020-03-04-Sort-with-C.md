@@ -7,8 +7,6 @@ image: 11.jpg
 categories: guide
 ---
 # C 排序算法的实现
-| Sort   | Worst Case    | Average Case   	| Best Case        | 
-| -------------		 |:-------------: |:-------------:	| -----:    |
 ## Bubble Sort
 ```C
 void Bubblesort(int *nums, int lenght){

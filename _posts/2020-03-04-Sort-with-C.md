@@ -3,6 +3,7 @@ layout: post
 title: "Sort with C"
 date: 2020-03-04 15:05:18 +020
 tags: [guide]
+image: 11.jpg
 categories: guide
 ---
 # C 排序算法的实现

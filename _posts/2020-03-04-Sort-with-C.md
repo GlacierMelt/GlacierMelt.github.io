@@ -10,19 +10,25 @@ excerpt: This page is a demo that shows everything you can do inside portfolio a
 ## C 排序算法的实现
 
 ---
+| Item                 | Author        | Supports tables? | Price |
+|----------------------|---------------|------------------|-------|
+| Duet Jekyll Theme    | Jekyll Themes | Yes              | $49   |
+| Index Jekyll Theme   | Jekyll Themes | Yes              | $49   |
+| Journal Jekyll Theme | Jekyll Themes | Yes              | $49   |
+
 | Sort   | Worst Case    | Average Case   	| Best Case        |
-| -------------|-------------|-------------|-----|
+|----------------------|---------------|-------------|------------|
 |  Bogo 			| O((n+1)!)	|O((n+1)!)   | O(n)	|
-|  [Bubble		| O(n<sup>2</sup>)|	O(n<sup>2</sup>) | O(n)		|
-|  [Cocktail Shaker| O(n<sup>2</sup>) |O(n<sup>2</sup>)	| O(n)		|
-|  [Selection 		| O(n<sup>2</sup>) |O(n<sup>2</sup>) | O(n<sup>2</sup>)	|
-|  [Gnome  		        | O(n<sup>2</sup>)|	O(n<sup>2</sup>) |  O(n<sup>2</sup>)|
-|  [Comb  			| O(n<sup>2</sup>) |O(nlogn) |O(nlogn)  	|
-|  [Insertion   		| O(n<sup>2</sup>)|	O(n<sup>2</sup>) |O(n)	|
-|  [Shell			| O(n(log(n))<sup>2</sup>) | O(n(log(n))<sup>2</sup>)|O(nlogn)	|
-|  [Merge Sort	| O(nlogn)	| O(nlogn)		 |O(nlogn)            |
-|  [Quick Sort  		| O(n<sup>2</sup>)| 	O(nlogn)	|O(nlogn)    	|
-|  [Heap Sort   		| O(nlogn)|	 O(nlogn)	 |O(nlogn)     	|
+|  Bubble		| O(n<sup>2</sup>)|	O(n<sup>2</sup>) | O(n)		|
+|  Cocktail Shaker| O(n<sup>2</sup>) |O(n<sup>2</sup>)	| O(n)		|
+|  Selection 		| O(n<sup>2</sup>) |O(n<sup>2</sup>) | O(n<sup>2</sup>)	|
+|  Gnome  		        | O(n<sup>2</sup>)|	O(n<sup>2</sup>) |  O(n<sup>2</sup>)|
+|  Comb  			| O(n<sup>2</sup>) |O(nlogn) |O(nlogn)  	|
+|  Insertion   		| O(n<sup>2</sup>)|	O(n<sup>2</sup>) |O(n)	|
+|  Shell			| O(n(log(n))<sup>2</sup>) | O(n(log(n))<sup>2</sup>)|O(nlogn)	|
+|  Merge Sort	| O(nlogn)	| O(nlogn)		 |O(nlogn)            |
+|  Quick Sort  		| O(n<sup>2</sup>)| 	O(nlogn)	|O(nlogn)    	|
+|  Heap Sort   		| O(nlogn)|	 O(nlogn)	 |O(nlogn)     	|
 ---
 
 ### Bubble Sort

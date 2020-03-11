@@ -1,39 +1,55 @@
 ---
-layout: home
+layout: default
+title: A super simple blogging theme for Jekyll.
+description: Simples is a super simple blogging theme for Jekyll.
+featured_image: /images/social.jpg
 ---
 
-{% if paginator.page %}
-  {% assign offset = paginator.page | minus:1 | times:paginator.per_page %}
-  {% assign currentPage = paginator.page %}
-{% else %}
-  {% assign offset = 0 %}
-  {% assign currentPage = 1 %}
-{% endif %}
+<section class="listing single">
 
-{% include header.html %}
-<div class="c-posts o-opacity" data-page="{{ currentPage }}" data-totalPages="{{ paginator.total_pages }}">
-  {% for post in site.posts limit:site.paginate offset:offset %}
-  <article class="c-post">
-    {% if post.image %}
-    <a class="c-post-thumbnail o-opacity" style="background-image: url({{"/images/" | prepend: site.baseurl | append : post.image}})"
-        href="{{post.url | prepend: site.baseurl}}"></a>
-    {% else %} {% endif %}
-    <div class="c-post-content">
-      <h2 class="c-post-title">
-        <a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a>
-      </h2>
-      <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
-      <span class="c-post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
-      <span class="c-post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words |
-          plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>
-    </div>
-  </article> <!-- /.c-post -->
-  {% endfor %}
-</div> <!-- /.c-posts -->
+	<div class="wrap">
 
-{% assign postCount = site.posts | size %}
-{% assign postsCovered = site.paginate | plus:offset %}
-{% if postsCovered < postCount %}
-  <button class="c-load-more c-btn c-btn--middle">Load more posts</button>
+		{% for post in paginator.posts %}
+
+		<article class="listing-post">
+
+			<div class="listing-post__header">
+				<h2 class="listing-post__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+				<p class="listing-post__subtitle">{{ post.date | date_to_long_string }}</p>
+			</div>
+
+			{% if post.featured_image %}
+			<a href="{{ post.url | relative_url }}" class="listing-post__image" style="background-image: url({{ post.featured_image | relative_url }});"></a>
+			{% endif %}
+
+			<div class="listing-post__content">
+				<p>{{ post.excerpt }}</p>
+				<p><a href="{{ post.url | relative_url }}" class="button">Read More</a>
+			</div>
+
+		</article>
+
+		{% endfor %}
+
+	</div>
+
+</section>
+
+{% if paginator.total_pages > 1 %}
+
+<section class="pagination">
+
+	{% if paginator.previous_page %}
+	<div class="pagination__prev">
+		<a href="{{ paginator.previous_page_path | relative_url }}" class="button button--large"><i class="fa fa-angle-left" aria-hidden="true"></i> <span>Newer Posts</span></a>
+	</div>
+	{% endif %}
+	{% if paginator.next_page %}
+	<div class="pagination__next">
+		<a href="{{ paginator.next_page_path | relative_url }}" class="button button--large"><span>Older Posts</span> <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+	</div>
+	{% endif %}
+
+</section>
+
 {% endif %}
-{% include categories.html %}

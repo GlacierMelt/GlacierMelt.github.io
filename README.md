@@ -1,1 +1,0 @@
-# GlacierMelt's BLOG

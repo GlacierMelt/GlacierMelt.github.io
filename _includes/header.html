@@ -1,20 +1,35 @@
-<header class="c-header">
-  <div class="c-header__box">
-    <div class="c-search">
-      <div class="c-search__box">
-        <label for="js-search-input" class="u-screen-reader-text">Search for Blog</label>
-        <input type="text" id="js-search-input" class="c-search__text" autocomplete="off" placeholder="Type to search...">
-        <div data-icon='ei-search' data-size='s'></div>
-      </div>
-      <ul id="js-results-container" class="c-search-results-list"></ul>
-    </div>
-    <div class="c-nav">
-      <ul class="c-nav__list u-lists-reset">
-        <li class="c-nav__item is-active">
-          <div data-icon='ei-pencil' data-size='s'></div> Posts</li>
-        <li class="c-nav__item">
-          <div data-icon='ei-star' data-size='s'></div> Categories</li>
-      </ul>
-    </div>
-  </div>
-</header> <!-- /.c-header -->
+<header class="header">
+
+	<div class="wrap">
+
+		{% if site.data.settings.header_settings.avatar_image %}
+		<a href="{{ site.baseurl }}/" class="header__avatar">
+			<img src="{{ site.data.settings.header_settings.avatar_image | relative_url }}" class="header__avatar__img">
+		</a>
+		{% endif %}
+
+		{% if site.data.settings.header_settings.logo_image %}
+		<a href="{{ site.baseurl }}/" class="header__logo">
+			<img src="{{ site.data.settings.header_settings.logo_image | relative_url }}" class="header__logo__img">
+		</a>
+		{% else %}
+		<a href="{{ site.baseurl }}/" class="header__title">
+			{{ site.data.settings.basic_settings.site_title }}
+		</a>
+		{% endif %}
+
+		<p class="header__tagline">{{ site.data.settings.basic_settings.site_tagline }}</p>
+
+		<div class="menu">
+			<ul class="menu__list">
+				{% for item in site.data.settings.menu_settings.menu_items %}
+				<li class="menu__list__item">
+					<a href="{{ item.url | relative_url }}" class="menu__list__item__link">{{ item.title }}</a>
+				</li>
+				{% endfor %}
+			</ul>
+		</div>
+
+	</div>
+
+</header>

@@ -99,8 +99,10 @@ int partition(int nums[], int lo, int hi){
 |  Quick Sort  		| O(n<sup>2</sup>)| 	O(nlogn)	|O(nlogn)    	|
 |  Heap Sort   		| O(nlogn)|	 O(nlogn)	 |O(nlogn)     	|
 
-<!-- ## Remaining code
+---
 
+## Remaining code
+```python
 #include <stdio.h>
 
 void swap(int nums[], int a, int b){
@@ -118,4 +120,5 @@ int main(){
   	for(int i=0; i<lenght-1; i++)
         printf("%d ", array[i]);
     return 0;
-} -->
+}
+```

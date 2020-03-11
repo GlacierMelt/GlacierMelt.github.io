@@ -2,7 +2,9 @@
 title: "Sort with C"
 date: 2020-03-04 15:05:18 +020
 featured_image: '/images/demo/valley_ship.jpg'
+excerpt:
 ---
+![](/images/demo/valley_ship.jpg)
 # C 排序算法的实现
 ## Bubble Sort
 ```C

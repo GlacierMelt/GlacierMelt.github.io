@@ -2,14 +2,13 @@
 title: "Sort with C"
 date: 2020-03-04 15:05:18
 featured_image: '/images/demo/valley_ship.JPG'
-excerpt: This page is a demo that shows everything you can do inside portfolio and blog posts. We've included everything you need to create engaging posts about your work, and show off your case studies in a beautiful way.
+excerpt:
 ---
 
 ![](/images/demo/valley_ship.JPG)
 
 ## C 排序算法的实现
 
----
 | Item                 | Author        | Supports tables? | Price |
 |----------------------|---------------|------------------|-------|
 | Duet Jekyll Theme    | Jekyll Themes | Yes              | $49   |
@@ -29,7 +28,6 @@ excerpt: This page is a demo that shows everything you can do inside portfolio a
 |  Merge Sort	| O(nlogn)	| O(nlogn)		 |O(nlogn)            |
 |  Quick Sort  		| O(n<sup>2</sup>)| 	O(nlogn)	|O(nlogn)    	|
 |  Heap Sort   		| O(nlogn)|	 O(nlogn)	 |O(nlogn)     	|
----
 
 ### Bubble Sort
 

@@ -1,7 +1,7 @@
 ---
 title: Contact
-subtitle: Simples comes with a built-in contact form, that's free and easy to set up.
-description: Simples is a super simple blogging theme for Jekyll.
+subtitle: If you would like to form a team for competitions of Kaggle, please contact me.
+description: A blog regarding Artifical Intelligence.
 featured_image: /images/demo/demo-landscape.jpg
 ---
 

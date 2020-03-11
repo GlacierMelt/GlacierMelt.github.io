@@ -1,7 +1,7 @@
 ---
-title: About Simples
-description: Simples is a super simple blogging theme for Jekyll.
-subtitle: Simples is a super simple blogging theme for Jekyll.
+title: About Blog
+description: A blog regarding Artifical Intelligence.
+subtitle: A blog regarding Artifical Intelligence.
 featured_image: /images/social.jpg
 ---
 

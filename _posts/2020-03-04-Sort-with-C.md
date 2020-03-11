@@ -2,7 +2,7 @@
 title: "Sort with C"
 date: 2020-03-04 15:05:18
 featured_image: '/images/demo/valley_ship.JPG'
-excerpt:
+excerpt: Sorting Algorithm
 ---
 
 ![](/images/demo/valley_ship.JPG)
@@ -99,7 +99,6 @@ int partition(int nums[], int lo, int hi){
 |  Quick Sort  		| O(n<sup>2</sup>)| 	O(nlogn)	|O(nlogn)    	|
 |  Heap Sort   		| O(nlogn)|	 O(nlogn)	 |O(nlogn)     	|
 
----
 <!-- ## Remaining code
 ```C
 #include <stdio.h>

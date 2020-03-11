@@ -101,7 +101,7 @@ int partition(int nums[], int lo, int hi){
 
 ---
 
-## Remaining code
+### Remaining code
 ```python
 #include <stdio.h>
 

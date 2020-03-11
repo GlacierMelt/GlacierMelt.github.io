@@ -60,6 +60,26 @@ void merge(int *nums, int lo, int mid, int hi){
     }
 }
 ```
+## Quick Sort
+```C
+void QuickSort(int nums[], int lo, int hi){
+    if(lo >= hi) return;
+    int p = partition(nums, lo, hi);
+    QuickSort(nums, lo, p-1);
+    QuickSort(nums, p+1, hi);
+}
+
+int partition(int nums[], int lo, int hi){
+    int i, j;
+    for(i=lo, j=lo; j<hi; j++){
+        if(nums[j] <= nums[hi]){
+            swap(nums, i++, j);       
+        }
+    }
+    swap(nums, i, j);
+    return i;
+}
+```
 ## Remaining code
 ```C
 #include <stdio.h>
@@ -74,8 +94,10 @@ int main(){
   	int array[] = {0, 9, 10, 45, 21, 77, 36, 13, 11, 5};
   	int lenght = sizeof(array) / sizeof(array[0]);
 	Bubblesort(array, lenght);
+	InsertionSort(array, lenght);
+	QuickSort(array, 0, lenght-1);
   	for(int i=0; i<lenght-1; i++)
-      printf("%d ", array[i]);
+            printf("%d ", array[i]);
     return 0;
 }
 ```

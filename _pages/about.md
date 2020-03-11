@@ -5,7 +5,7 @@ subtitle: A blog regarding Artifical Intelligence.
 featured_image: /images/social.jpg
 ---
 
-![](/images/demo/demo-landscape.jpg)
+![](/images/demo/Samples.jpg)
 
 ## Features
 

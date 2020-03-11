@@ -11,7 +11,7 @@ excerpt: This page is a demo that shows everything you can do inside portfolio a
 
 ---
 | Sort   | Worst Case    | Average Case   	| Best Case        |
-| -------------		 |:-------------: |:-------------:	| -----:    |
+| -------------|-------------|-------------|-----|
 |  Bogo 			| O((n+1)!)	|O((n+1)!)   | O(n)	|
 |  [Bubble		| O(n<sup>2</sup>)|	O(n<sup>2</sup>) | O(n)		|
 |  [Cocktail Shaker| O(n<sup>2</sup>) |O(n<sup>2</sup>)	| O(n)		|

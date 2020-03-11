@@ -17,12 +17,8 @@ excerpt:
 
 | Sort   | Worst Case    | Average Case   	| Best Case        |
 |----------------------|---------------|-------------|------------|
-|  Bogo 			| O((n+1)!)	|O((n+1)!)   | O(n)	|
 |  Bubble		| O(n<sup>2</sup>)|	O(n<sup>2</sup>) | O(n)		|
-|  Cocktail Shaker| O(n<sup>2</sup>) |O(n<sup>2</sup>)	| O(n)		|
 |  Selection 		| O(n<sup>2</sup>) |O(n<sup>2</sup>) | O(n<sup>2</sup>)	|
-|  Gnome  		        | O(n<sup>2</sup>)|	O(n<sup>2</sup>) |  O(n<sup>2</sup>)|
-|  Comb  			| O(n<sup>2</sup>) |O(nlogn) |O(nlogn)  	|
 |  Insertion   		| O(n<sup>2</sup>)|	O(n<sup>2</sup>) |O(n)	|
 |  Shell			| O(n(log(n))<sup>2</sup>) | O(n(log(n))<sup>2</sup>)|O(nlogn)	|
 |  Merge Sort	| O(nlogn)	| O(nlogn)		 |O(nlogn)            |

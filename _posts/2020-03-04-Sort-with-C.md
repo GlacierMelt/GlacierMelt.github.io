@@ -100,7 +100,7 @@ int partition(int nums[], int lo, int hi){
 |  Heap Sort   		| O(nlogn)|	 O(nlogn)	 |O(nlogn)     	|
 
 <!-- ## Remaining code
-```C
+
 #include <stdio.h>
 
 void swap(int nums[], int a, int b){
@@ -118,5 +118,4 @@ int main(){
   	for(int i=0; i<lenght-1; i++)
         printf("%d ", array[i]);
     return 0;
-}
-``` -->
+} -->

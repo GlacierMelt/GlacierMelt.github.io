@@ -6,7 +6,7 @@ featured_image: '/images/demo/flowers.PNG'
 excerpt: This page is a demo that shows everything you can do inside portfolio and blog posts. We've included everything you need to create engaging posts about your work, and show off your case studies in a beautiful way.
 ---
 
-![](/images/demo/demo-landscape.jpg)
+![](/images/demo/Road.jpg)
 
 ## Demo content
 

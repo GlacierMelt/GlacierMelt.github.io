@@ -90,7 +90,7 @@ int partition(int nums[], int lo, int hi){
 ---
 
 | Sort   | Worst Case    | Average Case   	| Best Case        |
-|----------------------|---------------|-------------|------------|
+|----------------------|:---------------:|:-------------:|:------------:|
 |  Bubble		| O(n<sup>2</sup>)|	O(n<sup>2</sup>) | O(n)		|
 |  Selection 		| O(n<sup>2</sup>) |O(n<sup>2</sup>) | O(n<sup>2</sup>)	|
 |  Insertion   		| O(n<sup>2</sup>)|	O(n<sup>2</sup>) |O(n)	|

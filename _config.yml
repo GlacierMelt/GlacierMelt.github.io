@@ -15,7 +15,7 @@ collections:
     permalink: /project/:slug
   categroies:
     output: true
-    permalink: /category/:slug
+    permalink: /categories/:slug
 
 defaults:
   -

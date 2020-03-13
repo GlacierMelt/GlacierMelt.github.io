@@ -25,6 +25,7 @@ void Bubblesort(int *nums, int lenght){
     }
 }
 ```
+
 ### Insertion Sort
 
 ```python
@@ -66,6 +67,7 @@ void merge(int *nums, int lo, int mid, int hi){
     }
 }
 ```
+
 ### Quick Sort
 
 ```python
@@ -90,7 +92,7 @@ int partition(int nums[], int lo, int hi){
 ---
 
 | Sort   | Worst Case    | Average Case   	| Best Case        |
-|----------------------|---------------|-------------|------------|
+|----------------------|:---------------:|:-------------:|:------------:|
 |  Bubble		| O(n<sup>2</sup>)|	O(n<sup>2</sup>) | O(n)		|
 |  Selection 		| O(n<sup>2</sup>) |O(n<sup>2</sup>) | O(n<sup>2</sup>)	|
 |  Insertion   		| O(n<sup>2</sup>)|	O(n<sup>2</sup>) |O(n)	|
@@ -106,18 +108,18 @@ int partition(int nums[], int lo, int hi){
 #include <stdio.h>
 
 void swap(int nums[], int a, int b){
-  int temp = *(nums+a);
-  *(nums+a) = *(nums+b);
-  *(nums+b) = temp;
+    int temp = *(nums+a);
+    *(nums+a) = *(nums+b);
+    *(nums+b) = temp;
 }
 
 int main(){
-  	int array[] = {0, 9, 10, 45, 21, 77, 36, 13, 11, 5};
-  	int lenght = sizeof(array) / sizeof(array[0]);
-	Bubblesort(array, lenght);
-	InsertionSort(array, lenght);
-	QuickSort(array, 0, lenght-1);
-  	for(int i=0; i<lenght-1; i++)
+    int array[] = {0, 9, 10, 45, 21, 77, 36, 13, 11, 5};
+    int lenght = sizeof(array) / sizeof(array[0]);
+    Bubblesort(array, lenght);
+    InsertionSort(array, lenght);
+    QuickSort(array, 0, lenght-1);
+    for(int i=0; i<lenght-1; i++)
         printf("%d ", array[i]);
     return 0;
 }

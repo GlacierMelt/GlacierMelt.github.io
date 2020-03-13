@@ -114,12 +114,12 @@ void swap(int nums[], int a, int b){
 }
 
 int main(){
-  	int array[] = {0, 9, 10, 45, 21, 77, 36, 13, 11, 5};
-  	int lenght = sizeof(array) / sizeof(array[0]);
-	Bubblesort(array, lenght);
-	InsertionSort(array, lenght);
-	QuickSort(array, 0, lenght-1);
-  	for(int i=0; i<lenght-1; i++)
+    int array[] = {0, 9, 10, 45, 21, 77, 36, 13, 11, 5};
+    int lenght = sizeof(array) / sizeof(array[0]);
+    Bubblesort(array, lenght);
+    InsertionSort(array, lenght);
+    QuickSort(array, 0, lenght-1);
+    for(int i=0; i<lenght-1; i++)
         printf("%d ", array[i]);
     return 0;
 }

@@ -11,7 +11,7 @@ excerpt: Sorting Algorithm
 
 ### Bubble Sort
 
-```cpp
+```python
 void Bubblesort(int *nums, int lenght){
     int hasChange = 1;
     for(int i=0; i<lenght-1 && hasChange; i++){
@@ -25,9 +25,10 @@ void Bubblesort(int *nums, int lenght){
     }
 }
 ```
+
 ### Insertion Sort
 
-```cpp
+```python
 void InsertionSort(int *nums, int lenght){
     for(int i=1, j, current; i<lenght; i++){
         current = nums[i];
@@ -41,7 +42,7 @@ void InsertionSort(int *nums, int lenght){
 
 ### Merge Sort
 
-```cpp
+```python
 void MergeSort(int *A, int lo, int hi){
     if(lo >= hi) return;
     int mid = lo + (hi - lo) / 2;
@@ -66,9 +67,10 @@ void merge(int *nums, int lo, int mid, int hi){
     }
 }
 ```
+
 ### Quick Sort
 
-```cpp
+```python
 void QuickSort(int nums[], int lo, int hi){
     if(lo >= hi) return;
     int p = partition(nums, lo, hi);

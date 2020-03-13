@@ -108,9 +108,9 @@ int partition(int nums[], int lo, int hi){
 #include <stdio.h>
 
 void swap(int nums[], int a, int b){
-  int temp = *(nums+a);
-  *(nums+a) = *(nums+b);
-  *(nums+b) = temp;
+    int temp = *(nums+a);
+    *(nums+a) = *(nums+b);
+    *(nums+b) = temp;
 }
 
 int main(){

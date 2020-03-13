@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Projects
+title: Categories
 description: A blog regarding Artifical Intelligence.
 featured_image: /images/social.jpg
 ---
@@ -9,7 +9,7 @@ featured_image: /images/social.jpg
 
 	<div class="wrap">
 
-		{% for category in site.projects reversed %}
+		{% for category in site.classification reversed %}
 
 		<article class="listing-post">
 
@@ -24,7 +24,7 @@ featured_image: /images/social.jpg
 
 			<div class="listing-post__content">
 				<p>{{ category.excerpt }}</p>
-				<p><a href="{{ category.url | relative_url }}" class="button">View Project</a>
+				<p><a href="{{ category.url | relative_url }}" class="button">View Category</a>
 			</div>
 
 		</article>

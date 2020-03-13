@@ -13,9 +13,9 @@ collections:
   projects:
     output: true
     permalink: /project/:slug
-  categories:
+  somthing:
     output: true
-    permalink: /categories/:slug
+    permalink: /somthing/:slug
 
 defaults:
   -
@@ -44,7 +44,7 @@ defaults:
   -
     scope:
       path: ""
-      type: "categories"
+      type: "somthing"
     values:
       layout: "project"
 

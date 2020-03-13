@@ -9,7 +9,7 @@ featured_image: /images/social.jpg
 
 	<div class="wrap">
 
-		{% for categories in site.categories reversed %}
+		{% for categories in site.projects reversed %}
 
 		<article class="listing-post">
 
@@ -24,7 +24,7 @@ featured_image: /images/social.jpg
 
 			<div class="listing-post__content">
 				<p>{{ categories.excerpt }}</p>
-				<p><a href="{{ categories.url | relative_url }}" class="button">View Categories</a>
+				<p><a href="{{ categories.url | relative_url }}" class="button">View Categorries</a>
 			</div>
 
 		</article>

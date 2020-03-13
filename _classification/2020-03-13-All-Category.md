@@ -1,7 +1,7 @@
 ---
 title: 'ALL CATEGORY'
 subtitle: 'Primary Category'
-date: 2018-06-30 00:00:00
+date: 2020-03-13 00:00:00
 featured_image: '/images/demo/mountain.JPG'
 excerpt: category navigation
 ---

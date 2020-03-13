@@ -9,22 +9,22 @@ featured_image: /images/social.jpg
 
 	<div class="wrap">
 
-		{% for categories in site.category reversed %}
+		{% for Categories in site.Categories reversed %}
 
 		<article class="listing-post">
 
 			<div class="listing-post__header">
-				<h2 class="listing-post__title"><a href="{{ categories.url | relative_url }}">{{ categories.title }}</a></h2>
-				<p class="listing-post__subtitle">{{ categories.subtitle }}</p>
+				<h2 class="listing-post__title"><a href="{{ Categories.url | relative_url }}">{{ Categories.title }}</a></h2>
+				<p class="listing-post__subtitle">{{ Categories.subtitle }}</p>
 			</div>
 
-			{% if categories.featured_image %}
-			<a href="{{ categories.url | relative_url }}" class="listing-post__image" style="background-image: url({{ categories.featured_image | relative_url }});"></a>
+			{% if Categories.featured_image %}
+			<a href="{{ Categories.url | relative_url }}" class="listing-post__image" style="background-image: url({{ Categories.featured_image | relative_url }});"></a>
 			{% endif %}
 
 			<div class="listing-post__content">
-				<p>{{ categories.excerpt }}</p>
-				<p><a href="{{ categories.url | relative_url }}" class="button">View Project</a>
+				<p>{{ Categories.excerpt }}</p>
+				<p><a href="{{ Categories.url | relative_url }}" class="button">View Project</a>
 			</div>
 
 		</article>

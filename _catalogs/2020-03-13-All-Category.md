@@ -12,5 +12,5 @@ excerpt: Navigation using the the categories.
 
 ---
 
-## <center>Complete Lists</center>
+## <center>Complete Tables</center>
 

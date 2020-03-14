@@ -12,7 +12,6 @@ excerpt: Navigation using the the categories.
 
 ---
 
----
-subtitle: 'Primary Category'
----
-<center style="font:5px;">Complete List</center>
+大小为size
+
+<font size=10>Complete Lists</font>

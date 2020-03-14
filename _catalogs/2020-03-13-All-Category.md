@@ -14,4 +14,3 @@ excerpt: Navigation using the the categories.
 
 **<center>Complete Lists</center>**
 
-<font face="黑体" size=10>我是黑体字</font>

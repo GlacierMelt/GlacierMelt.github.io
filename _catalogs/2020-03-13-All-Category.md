@@ -12,4 +12,4 @@ excerpt: Navigation using the the categories.
 
 ---
 
-$$Complete List$$
+$$ Complete List $$

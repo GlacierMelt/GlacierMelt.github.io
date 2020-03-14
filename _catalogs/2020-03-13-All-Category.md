@@ -6,4 +6,4 @@ featured_image: '/images/demo/mountain.JPG'
 excerpt: Navigation using the the categories.
 ---
 
-![](/images/demo/demo-landscape.jpg)
+![](/images/demo/mountain.JPG)

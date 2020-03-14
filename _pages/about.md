@@ -26,7 +26,7 @@ Simples is packed with powerful features to showcase your content:
 * Works with GitHub Pages
 * Updated and supported by the developers
 
-## Get Simples
+## Get Catalog
 
 Simples is created and supported by [Jekyll Themes](https://jekyllthemes.io), and is available for $49.
 

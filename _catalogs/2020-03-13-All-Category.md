@@ -12,4 +12,4 @@ excerpt: Navigation using the the categories.
 
 ---
 
-$$ Complete List $$
+<center style="font:12px">Complete List</center>

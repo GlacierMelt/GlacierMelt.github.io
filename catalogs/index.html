@@ -1,0 +1,36 @@
+---
+layout: default
+title: Categories
+description: A blog regarding Artifical Intelligence.
+featured_image: /images/social.jpg
+---
+
+<section class="listing single">
+
+	<div class="wrap">
+
+		{% for catalog in site.catalogs reversed %}
+
+		<article class="listing-post">
+
+			<div class="listing-post__header">
+				<h2 class="listing-post__title"><a href="{{ catalog.url | relative_url }}">{{ catalog.title }}</a></h2>
+				<p class="listing-post__subtitle">{{ catalog.subtitle }}</p>
+			</div>
+
+			{% if catalog.featured_image %}
+			<a href="{{ catalog.url | relative_url }}" class="listing-post__image" style="background-image: url({{ catalog.featured_image | relative_url }});"></a>
+			{% endif %}
+
+			<div class="listing-post__content">
+				<p>{{ catalog.excerpt }}</p>
+				<p><a href="{{ catalog.url | relative_url }}" class="button">View Category</a>
+			</div>
+
+		</article>
+
+		{% endfor %}
+
+	</div>
+
+</section>

@@ -30,4 +30,4 @@ Simples is packed with powerful features to showcase your content:
 
 Simples is created and supported by [Jekyll Themes](https://jekyllthemes.io), and is available for $49.
 
-<a href="https://jekyllthemes.io/theme/simples-blog-jekyll-theme" class="button button--large">Get Start Navigation</a>
+<a href="https://glaciermelt.github.io/category/all-category" class="button button--large">Get Start Navigation</a>

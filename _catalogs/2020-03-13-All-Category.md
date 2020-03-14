@@ -12,6 +12,4 @@ excerpt: Navigation using the the categories.
 
 ---
 
-大小为size
-
-<font size=10>Complete Lists</font>
+<font size=5>Complete Lists</font>

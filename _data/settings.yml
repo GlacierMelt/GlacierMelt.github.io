@@ -15,7 +15,7 @@ menu_settings:
     - title: 'Projects'
       url: '/projects/'
     - title: 'Categories'
-      url: '/classifications/'
+      url: '/catalogs/'
     - title: 'About'
       url: '/about'
     - title: 'Contact'

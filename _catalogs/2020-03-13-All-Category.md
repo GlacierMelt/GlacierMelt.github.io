@@ -3,9 +3,7 @@ title: 'ALL CATEGORY'
 subtitle: 'Primary Category'
 date: 2020-03-13 00:00:00
 featured_image: '/images/demo/mountain.JPG'
-excerpt: category navigation
+excerpt: Navigation using the the categories.
 ---
 
 ![](/images/demo/demo-landscape.jpg)
-
-## mountain

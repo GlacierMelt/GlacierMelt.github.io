@@ -13,7 +13,7 @@ collections:
   projects:
     output: true
     permalink: /project/:slug
-  classifications:
+  catalogs:
     output: true
     permalink: /category/:slug
 
@@ -44,7 +44,7 @@ defaults:
   -
     scope:
       path: ""
-      type: "classifications"
+      type: "catalogs"
     values:
       layout: "project"
 

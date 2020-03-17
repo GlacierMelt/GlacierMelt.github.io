@@ -7,7 +7,8 @@ excerpt: Sorting Algorithm
 
 ![](/images/demo/valley_ship.JPG)
 
-![](/images/demo/favicon.png)
+![](/images/favicon.png)
+
 ## C 排序算法的实现
 
 ### Bubble Sort

@@ -29,8 +29,7 @@ Simples is packed with powerful features to showcase your content:
 ## Get Catalog
 
 All the catalogs are placed in [Categories](https://glaciermelt.github.io/catalogs) section.
-
-"All Catergory" structures :
+And "All Catergory" structures :
 * Primary Category
 * Complete Tables
 

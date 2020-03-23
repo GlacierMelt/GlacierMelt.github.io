@@ -29,10 +29,10 @@ Simples is packed with powerful features to showcase your content:
 ## Get Catalog
 
 All the catalogs are placed in [Categories](https://glaciermelt.github.io/catalogs) section.<br />
-Categories structures
-* **"All Catergory"** structures :
-    * Primary Category
-    * Complete Tables
+**Categories structures** :
+* **"All Catergory"** :
+  * *Primary Category*
+  * *Complete Tables*
 * **Others**
 
 <a href="https://glaciermelt.github.io/category/all-category" class="button button--large">Get Start Navigation</a>

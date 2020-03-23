@@ -14,8 +14,8 @@ Simples is packed with powerful features to showcase your content:
 * Major in Computer Vision
 * Machine Learning
 * Data Structures and Algorithms basics
-* Competition
-* Journal
+* Competitions
+* Journals
 
 ## Get Catalog
 

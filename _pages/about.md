@@ -9,7 +9,7 @@ featured_image: /images/social.jpg
 
 ## Features
 
-Blogging Web is around the featured aspects listed below to showcase content :
+Blogging Web is around the features listed below to showcase content :
 
 * Major in Computer Vision
 * Machine Learning

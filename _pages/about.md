@@ -11,7 +11,7 @@ featured_image: /images/social.jpg
 
 Blogging Web is around features listed below to showcase content :
 
-* Major in **Computer Vision**
+* A major of **Computer Vision**
 * Machine Learning
 * Data Structures and Algorithms basics
 * Competitions

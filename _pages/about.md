@@ -21,10 +21,10 @@ Blogging Web is around features listed below to showcase content :
 
 All the catalogs are placed in [Categories](https://glaciermelt.github.io/catalogs) section.<br />
 
-***Categories structures*** :
-* **"All Catergory"** :
-  * *Primary Category*
-  * *Complete Tables*。 
-* **Others**
+Categories structures :
+* "All Catergory" :
+  * Primary Category
+  * Complete Tables 
+* Others
 
 <a href="https://glaciermelt.github.io/category/all-category" class="button button--large">Get Start Navigation</a>

@@ -9,7 +9,7 @@ featured_image: /images/social.jpg
 
 ## Features
 
-Simples is packed with powerful features to showcase your content:
+Blogging Web is around the featured aspects listed below to showcase content :
 
 * Major in Computer Vision
 * Machine Learning

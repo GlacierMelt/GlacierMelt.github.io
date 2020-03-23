@@ -28,6 +28,10 @@ Simples is packed with powerful features to showcase your content:
 
 ## Get Catalog
 
-Simples is created and supported by [Jekyll Themes](https://jekyllthemes.io), and is available for $49.
+All the catalogs are placed in [Categories](https://glaciermelt.github.io/catalogs) section.
+
+"All Catergory" structures :
+* Primary Category
+* Complete Tables
 
 <a href="https://glaciermelt.github.io/category/all-category" class="button button--large">Get Start Navigation</a>

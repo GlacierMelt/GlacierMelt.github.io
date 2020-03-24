@@ -17,6 +17,6 @@ excerpt: Navigation using the categories.
 
  Item                 | Author        | Supports tables? | Price |
 |----------------------|---------------|------------------|-------|
-| Duet Jekyll Theme    | • Jekyll Themes<br \>• k| Yes              | $49   |
+| Duet Jekyll Theme    | • Jekyll Themes<br>• k| Yes              | $49   |
 | Index Jekyll Theme   | Jekyll Themes | Ye             | $49   |
 | Journal Jekyll Theme | Jekyll Themes | Yes              | $49   |

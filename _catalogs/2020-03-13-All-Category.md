@@ -14,9 +14,3 @@ excerpt: Navigation using the categories.
 ---
 
 ## <center>Complete Tables</center>
-
- Item                 | Author        | Supports tables? | Price |
-|----------------------|---------------|------------------|-------|
-| Duet Jekyll Theme    | • Jekyll Themes<br>• [k]()| Yes              | $49   |
-| Index Jekyll Theme   | Jekyll Themes | Ye             | $49   |
-| Journal Jekyll Theme | Jekyll Themes | Yes              | $49   |

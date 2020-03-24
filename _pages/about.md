@@ -30,4 +30,4 @@ All the catalogs are placed in [Categories](https://glaciermelt.github.io/catalo
 * **Others**
   * •••
 
-<a href="{{ https://glaciermelt.github.io/category/all-category }}" class="button button--large">Get Start Navigation</a>
+<a href="{{ /category/all-category }}" class="button button--large">Get Start Navigation</a>

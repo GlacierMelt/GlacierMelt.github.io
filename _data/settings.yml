@@ -1,7 +1,7 @@
 basic_settings:
   site_title: GlacierMelt
   site_tagline: A super simple BLOG for Artifical Intelligence.
-  favicon_image: /images/favicon1.jpg
+  favicon_image: /images/favicon1.jpg.jpg
 
 header_settings:
   avatar_image: /images/avatar.png

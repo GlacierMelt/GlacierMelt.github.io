@@ -43,7 +43,7 @@ ListNode* reverseN(ListNode* head, int n, ListNode* successor){
 #### 3. 反转链表的一部分
 **实例**<br>
 **输入**: 1->2->3->4->5->NULL, m = 2, n = 4<br>
-**输出**: 1->4->3->2->5->NULL`
+**输出**: 1->4->3->2->5->NULL
 
 ```python
 ListNode* reverseBetween(ListNode* head, int m, int n, ListNode* successor){
@@ -127,24 +127,6 @@ void printrear2head(ListNode* ins){
     printf("%d ", ins->val);
 }
 
-ListNode* reverseN(ListNode* head, int n, ListNode* successor){
-    if(n==1){
-        return head;
-    }
-    ListNode* last = reverseN(head->next, --n, successor);
-    head->next->next = head;
-    head->next = successor;
-    return last;
-}
-
-ListNode* reverseBetween(ListNode* head, int m, int n, ListNode* successor){
-    if(m==1){
-        return reverseN(head, n, successor);
-    }
-    head->next = reverseBetween(head->next, --m, --n, successor);
-    return head;
-}
-
 ListNode* location(ListNode* head, int n){
     ListNode* successor = NULL;
     ListNode* temp = head;
@@ -160,7 +142,6 @@ int main()
     printf("Hello World\n");
     int array[] = {1,2,3,4,5};
     int array_1[] = {6,7,8,9,10};
-    int array_m[10] = {0};
     int length = sizeof(array)/sizeof(array[0]);
     ListNode* ins = instance(array, length);
     ListNode* ins_1 = instance(array_1, length);

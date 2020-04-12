@@ -11,10 +11,8 @@ excerpt: MAP
 ---
 #### 反转一个单链表
 **实例**<br>
-```
 输入: 1->2->3->4->5->NULL<br>
 输出: 5->4->3->2->1->NULL
-```
 
 ```python
 ListNode* reverseList(ListNode* head){

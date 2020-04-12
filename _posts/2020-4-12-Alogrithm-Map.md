@@ -5,7 +5,7 @@ featured_image: '/images/demo/sunlight_mountain.JPG'
 excerpt: MAP
 ---
 
-![image[^1]](/images/demo/sunlight_mountain.JPG)
+![image][^1](/images/demo/sunlight_mountain.JPG)
 
 ## 链表
 

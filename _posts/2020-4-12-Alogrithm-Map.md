@@ -7,9 +7,9 @@ excerpt: MAP
 
 ## 链表
 
-#### 反转链表
+### 反转链表
 ---
-##### 反转一个单链表
+#### 反转一个单链表
 **实例**<br>
 ```
 输入: 1->2->3->4->5->NULL<br>
@@ -26,7 +26,7 @@ ListNode* reverseList(ListNode* head){
 }
 ```
 ---
-##### 反转链表前N个节点
+#### 反转链表前N个节点
 **实例**<br>
 **输入**: 1->2->3->4->5->NULL, n = 3<br>
 **输出**: 3->2->1->4->5->NULL
@@ -42,7 +42,7 @@ ListNode* reverseN(ListNode* head, int n, ListNode* successor){
 }
 ```
 ---
-##### 反转链表的一部分
+#### 反转链表的一部分
 **实例**<br>
 **输入**: 1->2->3->4->5->NULL, m = 2, n = 4<br>
 **输出**: 1->4->3->2->5->NULL`
@@ -56,9 +56,9 @@ ListNode* reverseBetween(ListNode* head, int m, int n, ListNode* successor){
     return head;
 }
 ```
-#### 合并链表
+### 合并链表
 ---
-##### 合并两个有序链表
+#### 合并两个有序链表
 **实例**<br>
 **输入**：1->2->4, 1->3->4<br>
 **输出**：1->1->2->3->4->4

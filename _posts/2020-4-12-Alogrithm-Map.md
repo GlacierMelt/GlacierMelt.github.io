@@ -55,7 +55,7 @@ ListNode* reverseBetween(ListNode* head, int m, int n, ListNode* successor){
 }
 ```
 ### 合并链表
----c
+---
 #### 1. 合并两个有序链表
 **实例**<br>
 **输入**：1->2->4, 1->3->4<br>

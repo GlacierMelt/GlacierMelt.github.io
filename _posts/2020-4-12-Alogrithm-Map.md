@@ -7,9 +7,8 @@ excerpt: MAP
 
 ![image](/images/demo/sunlight_mountain.JPG)
 
-[toc]
-
 **Origin** :  Image[^1]
+
 ## 链表
 
 ### 反转链表

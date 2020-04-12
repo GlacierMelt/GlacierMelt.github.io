@@ -11,10 +11,10 @@ excerpt: MAP
 ---
 #### 1. 反转一个单链表
 **实例**<br>
->输入: 1->2->3->4->5->NULL<br>
->输出: 5->4->3->2->1->NULL
+输入: 1->2->3->4->5->NULL<br>
+输出: 5->4->3->2->1->NULL
 
-```c
+```cpp
 ListNode* reverseList(ListNode* head){
     if(head->next == NULL) return head;
     ListNode* last = reverseList(head->next);
@@ -28,7 +28,7 @@ ListNode* reverseList(ListNode* head){
 **实例**<br>
 **输入**: 1->2->3->4->5->NULL, n = 3<br>
 **输出**: 3->2->1->4->5->NULL
-```python
+```cpp
 ListNode* reverseN(ListNode* head, int n, ListNode* successor){
     if(n==1){
         return head;
@@ -45,7 +45,7 @@ ListNode* reverseN(ListNode* head, int n, ListNode* successor){
 **输入**: 1->2->3->4->5->NULL, m = 2, n = 4<br>
 **输出**: 1->4->3->2->5->NULL
 
-```python
+```cpp
 ListNode* reverseBetween(ListNode* head, int m, int n, ListNode* successor){
     if(m==1){
         return reverseN(head, n, successor);
@@ -55,12 +55,12 @@ ListNode* reverseBetween(ListNode* head, int m, int n, ListNode* successor){
 }
 ```
 ### 合并链表
----
+---c
 #### 1. 合并两个有序链表
 **实例**<br>
 **输入**：1->2->4, 1->3->4<br>
 **输出**：1->1->2->3->4->4
-```python
+```cpp
 ListNode* merge2List(ListNode* head_0, ListNode* head_1){
     ListNode* temp = 0; ListNode* first=0;
     while(head_0!=0 && head_1!=0){
@@ -86,7 +86,7 @@ ListNode* merge2List(ListNode* head_0, ListNode* head_1){
 }
 ```
 ### Remaining code
-```python
+```cpp
 #include <stdio.h>
 #include <malloc.h>
 

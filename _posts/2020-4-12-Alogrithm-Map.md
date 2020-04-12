@@ -60,7 +60,32 @@ ListNode* reverseBetween(ListNode* head, int m, int n, ListNode* successor){
 **实例**<br>
 **输入**：1->2->4, 1->3->4<br>
 **输出**：1->1->2->3->4->4
-
+```python
+ListNode* merge2List(ListNode* head_0, ListNode* head_1){
+    ListNode* temp = 0; ListNode* first=0;
+    while(head_0!=0 && head_1!=0){
+        if(head_0->val < head_1->val){
+            if(temp==0) temp = first = head_0;
+            else{
+                temp->next = head_0;
+                temp = head_0;
+            }
+            head_0 = head_0->next;
+        }else{
+            if(temp==0) temp = first = head_1;
+            else{
+                temp->next = head_1;
+                temp = head_1;
+            }
+            head_1 = head_1->next;
+        }
+    }
+    if(head_0==0) temp->next = head_1;
+    else temp->next = head_0;
+    return first;
+}
+```
+### Remaining code
 ```python
 #include <stdio.h>
 #include <malloc.h>
@@ -128,30 +153,6 @@ ListNode* location(ListNode* head, int n){
         temp = temp->next;
     }
     return successor;
-}
-
-ListNode* merge2List(ListNode* head_0, ListNode* head_1){
-    ListNode* temp = 0; ListNode* first=0;
-    while(head_0!=0 && head_1!=0){
-        if(head_0->val < head_1->val){
-            if(temp==0) temp = first = head_0;
-            else{
-                temp->next = head_0;
-                temp = head_0;
-            }
-            head_0 = head_0->next;
-        }else{
-            if(temp==0) temp = first = head_1;
-            else{
-                temp->next = head_1;
-                temp = head_1;
-            }
-            head_1 = head_1->next;
-        }
-    }
-    if(head_0==0) temp->next = head_1;
-    else temp->next = head_0;
-    return first;
 }
 
 int main()

@@ -32,7 +32,7 @@ ListNode* reverseList(ListNode* head){
 **输入**: 1->2->3->4->5->NULL, n = 3<br>
 **输出**: 3->2->1->4->5->NULL
 ```cpp
-ListNode* reverseN(ListNode* head, int n, ListNode* successor){
+ListNode* reverseN(ListNode* head, int n){
     if(n==1){
         successor = head->next;
         return head;

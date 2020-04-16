@@ -34,9 +34,10 @@ ListNode* reverseList(ListNode* head){
 ```cpp
 ListNode* reverseN(ListNode* head, int n, ListNode* successor){
     if(n==1){
+        successor = head->next;
         return head;
     }
-    ListNode* last = reverseN(head->next, --n, successor);
+    ListNode* last = reverseN(head->next, --n);
     head->next->next = head;
     head->next = successor;
     return last;
@@ -49,11 +50,11 @@ ListNode* reverseN(ListNode* head, int n, ListNode* successor){
 **输出**: 1->4->3->2->5->NULL
 
 ```cpp
-ListNode* reverseBetween(ListNode* head, int m, int n, ListNode* successor){
+ListNode* reverseBetween(ListNode* head, int m, int n){
     if(m==1){
-        return reverseN(head, n, successor);
+        return reverseN(head, n);
     }
-    head->next = reverseBetween(head->next, --m, --n, successor);
+    head->next = reverseBetween(head->next, --m, --n);
     return head;
 }
 ```
@@ -130,15 +131,7 @@ void printrear2head(ListNode* ins){
     printf("%d ", ins->val);
 }
 
-ListNode* location(ListNode* head, int n){
-    ListNode* successor = NULL;
-    ListNode* temp = head;
-    for(int i=0; i<n; i++){
-        successor = temp->next;
-        temp = temp->next;
-    }
-    return successor;
-}
+ListNode* successor = 0;
 
 int main()
 {
@@ -160,16 +153,13 @@ int main()
     display(ins);
 
     int n = 3;
-    ins = reverseN(ins, n, location(ins, n));
+    ins = reverseN(ins, n);
     display(ins);
 
     int m=5;
-    ins = reverseBetween(ins, n, m, location(ins, m));
+    ins = reverseBetween(ins, n, m);
     display(ins);
 
     return 0;
 }
 ```
-
-
-[^1]: Image from <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@josephyates_?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Joe Yates"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Joe Yates</span></a>

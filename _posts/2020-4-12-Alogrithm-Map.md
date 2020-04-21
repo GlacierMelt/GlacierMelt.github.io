@@ -106,7 +106,7 @@ ListNode* instance(int *nums, int length){
         ListNode* temp = (ListNode*)malloc(sizeof(ListNode));
         temp->val = nums[i];
         temp->next = NULL;
-        if(head==0){
+        if(head==NULL){
             head = H = temp;
         }else{
             H->next = temp;

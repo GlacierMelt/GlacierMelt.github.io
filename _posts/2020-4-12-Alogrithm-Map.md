@@ -101,7 +101,7 @@ typedef struct Node{
 
 ListNode* instance(int *nums, int length){
     ListNode* head = NULL;
-    ListNode* H = (ListNode*)malloc(sizeof(ListNode));
+    ListNode* H = NULL;
     for(int i=0; i<length; i++){
         ListNode* temp = (ListNode*)malloc(sizeof(ListNode));
         temp->val = nums[i];

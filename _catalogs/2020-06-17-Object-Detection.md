@@ -8,8 +8,3 @@ excerpt: Object detection is a computer technology related to computer vision an
 ![](/images/Navigation/object-Detection.jpg)
 
 ## Model
-
-
----
-
-## <center>Complete Tables</center>

@@ -8,7 +8,7 @@ excerpt: Navigation using the categories.
 
 ![](/images/demo/mountain.JPG)
 
-[Image Classification](/category/image-classification),  [Semantic Segmentation](/category/semantic-segmentaion),  [Object Detection](/category/object-detection),  [Instance Segmentation]()
+[Image Classification](/category/image-classification),  [Semantic Segmentation](/category/semantic-segmentaion),  [Object Detection](/category/object-detection),  [Instance Segmentation]()<br />
 
 [Model](), [Loss](), [Optimizer](), [Data Augment](), [Competition](), [Machine Learning]()<br />
 

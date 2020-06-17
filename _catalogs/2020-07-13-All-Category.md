@@ -10,9 +10,9 @@ excerpt: Navigation using the categories.
 
 [Image Classification](/category/image-classification),  [Semantic Segmentation](/category/semantic-segmentaion),  [Object Detection](/category/object-detection),  [Instance Segmentation]()<br />
 
-[Model](), [Loss](), [Optimizer](), [Data Augment](), [Competition](), [Machine Learning]()<br />
+* [Model](), [Loss](), [Optimizer](), [Data Augment](), [Competition](), [Machine Learning]()
 
-[Data Structures and Algorithms](), [Tool](), [Environment](), [Resourse]()
+* [Data Structures and Algorithms](), [Tool](), [Environment](), [Resourse]()
 
 
 ---

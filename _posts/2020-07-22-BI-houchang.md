@@ -2,7 +2,7 @@
 title: "Business Intelligence"
 date: 2020-07-22 0:05:18
 featured_image: '/images/demo/Drawn_and_Tree.JPG'
-excerpt: 后厂理工学院
+excerpt: 后厂理工学院 X Microsoft
 ---
 
 ![image](/images/demo/Drawn_and_Tree.JPG)

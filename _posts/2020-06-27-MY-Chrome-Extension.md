@@ -10,3 +10,4 @@ excerpt: Extension
 
 * Octotree
 * isometric-contributions
+* XPath Helper

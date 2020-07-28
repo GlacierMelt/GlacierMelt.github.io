@@ -2,18 +2,6 @@
 
 	<div class="wrap">
 
-        <head>
-            <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-            <script type="text/x-mathjax-config">
-                MathJax.Hub.Config({
-                    tex2jax: {
-                    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-                    inlineMath: [['$','$']]
-                    }
-                });
-            </script>
-        </head>
-        
 		{% if site.data.settings.header_settings.avatar_image %}
 		<a href="{{ site.baseurl }}/" class="header__avatar">
 			<img src="{{ site.data.settings.header_settings.avatar_image | relative_url }}" class="header__avatar__img">
